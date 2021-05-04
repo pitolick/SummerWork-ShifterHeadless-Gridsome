@@ -12,7 +12,7 @@ module.exports = {
     {
       use: '@gridsome/source-wordpress',
       options: {
-        baseUrl: process.env.WORDPRESS_URL, // required
+        baseUrl: 'https://1ba9aed77198b90b09637597a5df217fe7498b24.hl-a.getshifter.co', // required
         typeName: 'WordPress', // GraphQL schema name (Optional)
       }
     }
